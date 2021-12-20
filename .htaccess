@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lunarsystem.co$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.lunarsystem.co$
+RewriteCond %{REQUEST_URI} !_next/server/pages
+RewriteRule (.*) /_next/server/pages/$1 [L]

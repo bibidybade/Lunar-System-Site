@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3182ce;
+  }
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+.headerlink a{
+  color: #3a01429c;
+}
+.headerlink a:hover{
+  color: #390141;
+}
